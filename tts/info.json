@@ -407,8 +407,8 @@
 			"country": "US",
 			"language": "en",
 			"gender": "M",
-			"source": "lumenvox",
-			"arg": 8,
+			"source": "readloud",
+			"arg": "eric",
 			"desc": "Eric"
 		},
 		"amy_polly": {
