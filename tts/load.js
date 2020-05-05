@@ -126,6 +126,24 @@ function processVoice(voiceName, text) {
 				}));
 				break;
 			}
+			case 'lumenvox': {
+				var q = qs.encode({
+					text: text,
+					voice: voice.arg,
+					download: true,
+					accept: "audio/mp3",
+				});
+				console.log(https.get({
+					host: 'www.lumenvox.com',
+					path: `/products/tts/audio?${q}`,
+				}, r => {
+					var buffers = [];
+					r.on('data', d => buffers.push(d));
+					r.on('end', () => res(Buffer.concat(buffers)));
+					r.on('error', rej);
+				}));
+				break;
+			}
 			case 'acapela': {
 				var q = qs.encode({
 					cl_login: "VAAS_MKT",
