@@ -403,6 +403,14 @@
 			"arg": "valeria22k",
 			"desc": "Valeria (Spanish)"
 		},
+		"eric": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "lunmenvox",
+			"arg": 8,
+			"desc": "Eric"
+		},
 		"amy_polly": {
 			"country": "GB",
 			"language": "en",
