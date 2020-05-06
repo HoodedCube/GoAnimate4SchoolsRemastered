@@ -8,6 +8,7 @@
 "botdf"
 "bunny"
 "business"
+"cal"
 "cc_store"
 "chibi"
 "chowder"
