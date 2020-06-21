@@ -27,6 +27,206 @@
 		"nl": "Dutch"
 	},
 	"voices": {
+		"eric": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "readloud"
+			"arg": "/english/american/3-male-voice-eric.html",
+			"desc": "Eric"
+		},
+		"jennifer": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/english/american/28-female-voice-jennifer.html",
+			"desc": "Jennifer"
+		},
+		"skippy": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "readloud",
+			"arg": "/english/american/49-funny-toy-voice-skippy-the-chipmunk.html",
+			"desc": "Skippy"
+		},
+		"amy_ivona": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/english/british/5-female-voice-amy.html",
+			"desc": "Amy (Ivona)"
+		},
+		"brian_ivona": {
+			"country": "GB",
+			"language": "en",
+			"gender": "M",
+			"source": "readloud",
+			"arg": "/english/british/1-male-voice-brian.html",
+			"desc": "Brian (Ivona)"
+		},
+		"emma_ivona": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/english/british/17-female-voice-emma.html",
+			"desc": "Emma (Ivona)"
+		},
+		"salli_ivona": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/english/american/2-girl-s-voice-sally.html",
+			"desc": "Salli (Ivona)"
+		},
+		"joey_ivona": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "readloud",
+			"arg": "/english/american/29-male-voice-joey.html",
+			"desc": "Joey (Ivona)"
+		},
+		"ivy_ivona": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/english/american/25-child-s-girl-voice-ivy.html",
+			"desc": "Ivy (Ivona)"
+		},
+		"justin_ivona": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "readloud",
+			"arg": "/english/american/30-child-s-boy-voice-justin.html",
+			"desc": "Justin (Ivona)"
+		},
+		"kendra_ivona": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/english/american/32-female-voice-kendra.html",
+			"desc": "Kendra (Ivona)"
+		},
+		"kimberly_ivona": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/english/american/33-female-voice-kimberly.html",
+			"desc": "Kimberly (Ivona)"
+		},
+		"nicole_ivona": {
+			"country": "AU",
+			"language": "en",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/english/australian/43-female-voice-nicole.html",
+			"desc": "Nicole (Ivona)"
+		},
+		"russell_ivona": {
+			"country": "AU",
+			"language": "en",
+			"gender": "M",
+			"source": "readloud",
+			"arg": "/english/australian/48-male-voice-russell.html",
+			"desc": "Russell (Ivona)"
+		},
+		"marlene_ivona": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/german/39-frauenstimme-marlene.html",
+			"desc": "Marlene (Ivona)"
+		},
+		"hans_ivona": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"source": "readloud",
+			"arg": "/german/24-mannerstimme-hans.html",
+			"desc": "Hans (Ivona)"
+		},
+		"gwyneth_ivona": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/english/welsh/23-female-voice-gwyneth.html",
+			"desc": "Gwyneth (English Ivona)"
+		},
+		"gwyneth_cy_ivona": {
+			"country": "GB",
+			"language": "cy",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Gwyneth",
+			"desc": "Gwyneth (Welsh Ivona)"
+		},
+		"geraint_ivona": {
+			"country": "GB",
+			"language": "en",
+			"gender": "M",
+			"source": "readloud",
+			"arg": "/english/welsh/21-male-voice-geraint.html",
+			"desc": "Geraint (Ivona)"
+		},
+		"conchita_ivona": {
+			"country": "ES",
+			"language": "es",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/spanish/castilian/14-voz-femenina-conchita.html",
+			"desc": "Conchita (Ivona)"
+		},
+		"enrique_ivona": {
+			"country": "ES",
+			"language": "es",
+			"gender": "M",
+			"source": "readloud",
+			"arg": "/spanish/castilian/18-voz-masculina-enrique.html",
+			"desc": "Enrique (Ivona)"
+		},
+		"carla_ivona": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/italian/8-voce-femminile-carla.html",
+			"desc": "Carla (Ivona)"
+		},
+		"giorgio_ivona": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+			"source": "readloud",
+			"arg": "/italian/22-voce-maschile-giorgio.html",
+			"desc": "Giorgio (Ivona)"
+		},
+		"tatyana_ivona": {
+			"country": "RU",
+			"language": "ru",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/russian/50-zhenskiy-golos-tatyana.html",
+			"desc": "Tatyana (Ivona)"
+		},
+		"filiz": {
+			"country": "TR",
+			"language": "tr",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/turkish/20-kadın-sesi-filiz.html",
+			"desc": "Filiz"
+		},	
 		"ella": {
 			"country": "US",
 			"language": "en",
