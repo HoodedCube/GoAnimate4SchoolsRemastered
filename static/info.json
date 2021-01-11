@@ -2,14 +2,14 @@
 	"GET": {
 		"/index.html": {
 			"headers": {
-				"Location": "/html/list.html"
+				"Location": "/html/main_page.html"
 			},
 			"statusCode": 302,
 			"content": ""
 		},
 		"/$": {
 			"headers": {
-				"Location": "/html/list.html"
+				"Location": "/html/main_page.html"
 			},
 			"statusCode": 302,
 			"content": ""
@@ -57,7 +57,7 @@
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
 			},
-			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"g4s\"/></watermarks>"
+			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"twoLines\"/></watermarks>"
 		},
 		"/goapi/getWaveform/": {
 			"headers": {

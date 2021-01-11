@@ -126,6 +126,24 @@ function processVoice(voiceName, text) {
 				}));
 				break;
 			}
+			case 'lumenvox': {
+				var q = qs.encode({
+					text: text,
+					voice: voice.arg,
+					download: true,
+					accept: "audio/mp3",
+				});
+				console.log(https.get({
+					host: 'www.lumenvox.com',
+					path: `/products/tts/audio?${q}`,
+				}, r => {
+					var buffers = [];
+					r.on('data', d => buffers.push(d));
+					r.on('end', () => res(Buffer.concat(buffers)));
+					r.on('error', rej);
+				}));
+				break;
+			}
 			case 'acapela': {
 				var q = qs.encode({
 					cl_login: "VAAS_MKT",
@@ -153,6 +171,35 @@ function processVoice(voiceName, text) {
 				}));
 				break;
 			}
+            case 'readloud': {
+                const req = https.request({
+                    host: 'readloud.net',
+                    path: voice.arg,
+                    method: 'POST',
+                    port: '443',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+                }, r => {
+                    var buffers = [];
+                    r.on('data', d => buffers.push(d));
+                    r.on('end', () => {
+                        const html = Buffer.concat(buffers);
+                        const beg = html.indexOf('/tmp/');
+                        const end = html.indexOf('.mp3', beg) + 4;
+                        const sub = html.subarray(beg, end).toString();
+                        const loc = `https://readloud.net${sub}`;
+                        get(loc).then(res).catch(rej);
+                    });
+                    r.on('error', rej);
+                });
+                req.write(qs.encode({
+                    but1: text,
+                    but: 'Enviar',
+                }));
+                req.end();
+                break;
+            }
 		}
 	});
 }
